@@ -1,7 +1,7 @@
-# Practical Claude Code Skills for Graduate Students
+# Practical Claude Code Skills for Master's Students
 
 A small collection of three [Claude Code](https://claude.com/claude-code)
-skills for graduate students, built for academic and research work. Each skill encodes a *working pattern* —
+skills for master's students, built for academic and research work. Each skill encodes a *working pattern* —
 not a rigid checklist — so Claude reasons from the underlying principle when a
 new situation comes up.
 
