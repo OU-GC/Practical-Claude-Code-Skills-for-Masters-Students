@@ -72,14 +72,14 @@ Claude Code discovers skills under `~/.claude/skills/` (personal) or
 
 ```bash
 # clone, then copy the skills into your personal skills directory
-git clone https://github.com/OU-GC/claude-skills.git
-cp -r claude-skills/skills/* ~/.claude/skills/
+git clone https://github.com/OU-GC/Practical-Claude-Code-Skills-for-Masters-Students.git
+cp -r Practical-Claude-Code-Skills-for-Masters-Students/skills/* ~/.claude/skills/
 ```
 
 Or install just one:
 
 ```bash
-cp -r claude-skills/skills/report-writer ~/.claude/skills/
+cp -r Practical-Claude-Code-Skills-for-Masters-Students/skills/report-writer ~/.claude/skills/
 ```
 
 Each skill is a directory containing a `SKILL.md` with YAML frontmatter
@@ -89,7 +89,7 @@ Each skill is a directory containing a `SKILL.md` with YAML frontmatter
 ## Repository layout
 
 ```
-claude-skills/
+Practical-Claude-Code-Skills-for-Masters-Students/
 ├── LICENSE
 ├── NOTICE
 ├── README.md
