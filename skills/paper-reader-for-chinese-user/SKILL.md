@@ -29,7 +29,7 @@ These rules are language and formatting preferences. Follow them whenever this s
 Default to coherent, specific sentences when explaining concepts and arguments. Switch to bullet points only when the content is inherently a list: parallel items, steps, specs, or comparisons. The deciding test is readability. Do not force list-friendly content into long paragraphs just to avoid fragmented sentences, and do not break prose-style reasoning into bullets just to look structured.
 
 ### U2. Language: gloss English academic terms in Chinese
-When writing in Chinese, introduce an English academic term with its Chinese gloss in parentheses so that no English term floats in a Chinese sentence unexplained. Apply the following rules:
+When writing in Chinese, introduce an English academic term with its Chinese gloss in parentheses so that no English term floats in a Chinese sentence unexplained. Substance comes first: this is a lightweight language convention, not the goal of the reply. Explaining the concept clearly always takes priority, and the gloss merely rides along — it must never crowd out the actual explanation or turn the writing into a glossary. Apply the following rules:
 
 - **When to gloss:** Only on a term's first mention within the current conversation; after that, use it plainly with no re-glossing. "First mention" is scoped per conversation and resets in a new one, so a term introduced in an earlier conversation is glossed again the first time it appears here.
 - **What the gloss is:** The term's established Chinese name, never a definition or explanation. Write "attention mechanism（注意力機制）", not "attention mechanism（一種讓模型聚焦於重要輸入的機制）".
