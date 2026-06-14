@@ -1,6 +1,6 @@
 # Practical Claude Code Skills for Master's Students
 
-A small collection of three [Claude Code](https://claude.com/claude-code)
+A small collection of [Claude Code](https://claude.com/claude-code)
 skills for master's students, built for academic and research work. Each skill encodes a *working pattern* —
 not a rigid checklist — so Claude reasons from the underlying principle when a
 new situation comes up.
@@ -22,6 +22,18 @@ dropping academic stiffness.
   frozen), base model and size, and whether large-scale pretraining was used.
 - **Fixed answer structure** — one-line verdict, the key idea, why it matters,
   and honest limits.
+
+### [`paper-reader-for-chinese-user`](skills/paper-reader-for-chinese-user/SKILL.md)
+
+A Chinese-user variant of `paper-reader` with the same analytical principles,
+tuned for Chinese-speaking readers.
+
+- **Same core** — conclusion first, plain voice, strictly evidence-based, never
+  drops load-bearing facts, same fixed answer structure.
+- **Chinese gloss** — English academic terms are followed by their Chinese
+  translation in parentheses, e.g. `attention mechanism（注意力機制）`.
+- **No em-dash** — uses periods, commas, colons, or parentheses instead of the
+  `——` em-dash.
 
 ### [`science-confirmer`](skills/science-confirmer/SKILL.md)
 
@@ -68,7 +80,7 @@ reports — English/Chinese Word (`.docx`) documents and presentation decks
 ## Installing
 
 Claude Code discovers skills under `~/.claude/skills/` (personal) or
-`.claude/skills/` (per-project). To install all three personally:
+`.claude/skills/` (per-project). To install all of them personally:
 
 ```bash
 # clone, then copy the skills into your personal skills directory
@@ -95,6 +107,7 @@ Practical-Claude-Code-Skills-for-Masters-Students/
 ├── README.md
 └── skills/
     ├── paper-reader/SKILL.md
+    ├── paper-reader-for-chinese-user/SKILL.md
     ├── science-confirmer/SKILL.md
     └── report-writer/SKILL.md
 ```

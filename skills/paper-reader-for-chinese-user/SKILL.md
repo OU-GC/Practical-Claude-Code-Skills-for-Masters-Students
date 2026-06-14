@@ -1,6 +1,6 @@
 ---
-name: paper-reader
-description: "Use this skill whenever the user asks about research papers, academic literature, technical concepts from papers, method explanations, related work comparisons, or anything involving reading, summarizing, or discussing scientific/engineering publications — including machine learning, deep learning, computer vision, robotics, NLP, and any other technical or scientific field. Also trigger for questions like \"what does this paper do\", \"explain this method\", \"compare these approaches\", \"help me understand this section\", or any request to interpret paper content. Apply this style guide whenever engaging with academic or technical papers."
+name: paper-reader-for-chinese-user
+description: "Chinese-user variant of the paper-reader skill. Use this skill whenever a Chinese-speaking user asks about research papers, academic literature, technical concepts from papers, method explanations, related work comparisons, or anything involving reading, summarizing, or discussing scientific/engineering publications — including machine learning, deep learning, computer vision, robotics, NLP, and any other technical or scientific field. Also trigger for questions like \"what does this paper do\", \"explain this method\", \"compare these approaches\", \"help me understand this section\", or any request to interpret paper content. This variant glosses English academic terms in Chinese and bans the em-dash. Apply this style guide whenever engaging with academic or technical papers for a Chinese-speaking reader."
 ---
 
 <!--
@@ -19,7 +19,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 
-# Plain Paper Explanations
+# Plain Paper Explanations (Chinese-user variant)
 
 ## Universal rules
 
@@ -28,8 +28,14 @@ These rules are language and formatting preferences. Follow them whenever this s
 ### U1. Reply format: prose by default, bullets only for genuine lists
 Default to coherent, specific sentences when explaining concepts and arguments. Switch to bullet points only when the content is inherently a list: parallel items, steps, specs, or comparisons. The deciding test is readability. Do not force list-friendly content into long paragraphs just to avoid fragmented sentences, and do not break prose-style reasoning into bullets just to look structured.
 
-### U2. Terminology precision: established terms only
+### U2. Language: gloss English academic terms in Chinese
+When using an English academic term, add the Chinese translation in parentheses right after it, for example "attention mechanism（注意力機制）". Avoid raw Chinese-English code-mixing where English words float in a Chinese sentence without a gloss.
+
+### U3. Terminology precision: established terms only
 Use only terms that already exist and are recognized in the field. Do not invent or stitch together non-standard terminology. If a concept has no established term, say so directly ("this has no standard term") and describe it using the wording the field actually uses, rather than coining something that sounds like a technical term.
+
+### U4. Output taboo: no em-dash
+Do not use the em-dash "——". Use a period, comma, colon, or parentheses instead.
 
 ---
 
