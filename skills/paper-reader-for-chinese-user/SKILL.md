@@ -80,7 +80,7 @@ limitations under the License.
 - Bad: 注意力機制 (attention mechanism)
 - Good: Commonly accepted pre-defined terms such as query, key, value, and token should retain their English names.
 
-3. **Established terms only. Don't invent terminology:** Avoid giving unnamed steps a name that sounds too technical. The paper has no standard term for this; it just calls it the routing step"
+3. **Established terms only. Don't invent terminology:** Use only terms that already exist and are recognized in the field. Do not invent or stitch together non-standard terminology. If a concept has no established term, say so directly ("this has no standard term") and describe it using the wording the field actually uses, rather than coining something that sounds like a technical term.
 
 4. **No em-dash("——"):** Use a period, comma, colon, or parentheses.
 
