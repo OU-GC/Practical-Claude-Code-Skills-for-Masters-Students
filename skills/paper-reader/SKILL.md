@@ -125,5 +125,4 @@ Exception: the load-bearing facts in rule 9 are never treated as extra depth. In
 ## Summary
 
 Goal: deep analytical accuracy + plain direct delivery + evidence-based rigor. Keep the analysis, simplify the voice, ground everything in what the paper actually says.
-</content>
-</invoke>
+
