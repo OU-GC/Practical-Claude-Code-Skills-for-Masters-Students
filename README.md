@@ -32,7 +32,7 @@ dropping academic stiffness.
 A Chinese-user variant of `paper-reader` with the same analytical principles,
 tuned for Chinese-speaking readers.
 
-- **Same core** — conclusion first, plain voice, strictly evidence-based, never
+- **Same core as `paper-reader`** — conclusion first, plain voice, strictly evidence-based, never
   drops load-bearing facts, same fixed answer structure.
 - **Chinese gloss** — English academic terms are followed by their Chinese
   translation in parentheses, e.g. `attention mechanism（注意力機制）`.
