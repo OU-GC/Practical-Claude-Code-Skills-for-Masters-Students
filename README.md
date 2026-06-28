@@ -28,22 +28,28 @@ translated-from-English stiffness and tightening the syntax.
 Plain, direct explanations of research papers for Chinese-speaking readers,
 keeping analytical depth while dropping academic stiffness.
 
-- **Prose by default** — coherent sentences for explanation; bullets only when
-  the content is genuinely a list (parallel items, steps, specs, comparisons).
-- **Established terms only** — uses terminology the field already recognizes;
-  never coins term-like phrases, and says so plainly when no standard term exists.
-- **Conclusion first, reasoning after** — one idea per sentence; concrete example
-  before the abstract name.
-- **Plain voice** — drop hedging qualifiers, no forced metaphors, short
-  paragraphs, a senior-labmate tone rather than a lecturer's.
+- **Conclusion first, reasoning after** — lead with the one-sentence answer;
+  one claim per sentence; the concrete example before the abstract name.
+- **Plain voice** — drop hedging qualifiers, no extended metaphors, short
+  paragraphs (3–4 sentences), a senior-labmate-over-coffee tone rather than a
+  lecturer's.
 - **Strictly evidence-based** — grounded in what the paper actually says; name
   the uncertainty instead of guessing or filling gaps.
 - **Never drops load-bearing facts** — training regime (full fine-tune / LoRA /
-  frozen), base model and size, and whether large-scale pretraining was used.
-- **Fixed answer structure** — one-line verdict, the key idea, why it matters,
+  frozen), base model and size, whether large-scale pretraining was used, and
+  compute scale.
+- **Inputs, outputs, and data flow precisely** — for every component, name the
+  modality and representation that go in and come out, trace the end-to-end
+  path, distinguish a component from what feeds it, and quote the paper's actual
+  numbers.
+- **Fixed answer structure** — one-line verdict, the key idea, the authors' own
+  claimed contributions (kept separate), the motivation (the gap in prior work),
   and honest limits.
-- **Chinese gloss** — English academic terms are followed by their Chinese
-  translation in parentheses, e.g. `attention mechanism（注意力機制）`.
+- **Established terms only** — uses terminology the field already recognizes;
+  never coins term-like phrases, and says so plainly when no standard term exists.
+- **Chinese gloss** — English term first, pure Chinese translation in
+  parentheses, e.g. `attention mechanism（注意力機制）`; commonly accepted terms
+  like query / key / value / token keep their English names.
 
 ### [`report-writer`](skills/report-writer/SKILL.md)
 
