@@ -18,8 +18,6 @@ translated-from-English stiffness and tightening the syntax.
   `such as` literally; state comparisons with a verb instead.
 - **No em-dash** — replace `——` with a period, comma, or colon by
   what it's actually doing.
-- **Prose by default** — reserve bullets for genuinely list-like content; never
-  shatter continuous reasoning into fragments.
 - **Parentheses only for term glosses** — keep clauses, reasons, and qualifiers
   in the main sentence; parentheses are for English-term translations only.
 
@@ -33,6 +31,9 @@ keeping analytical depth while dropping academic stiffness.
 - **Plain voice** — drop hedging qualifiers, no extended metaphors, short
   paragraphs (3–4 sentences), a senior-labmate-over-coffee tone rather than a
   lecturer's.
+- **Prose first, lists when warranted** — explain in connected prose; reserve
+  bullets for genuinely list-like content, and never shatter a chain of reasoning
+  into fragments.
 - **Strictly evidence-based** — grounded in what the paper actually says; name
   the uncertainty instead of guessing or filling gaps.
 - **Never drops load-bearing facts** — training regime (full fine-tune / LoRA /

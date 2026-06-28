@@ -1,6 +1,6 @@
 ---
 name: chinese-polisher
-description: "Apply this skill to ALL Chinese output, no matter how short: every reply, sentence, explanation, argument, report, draft, summary, or note in Chinese. Follow these rules without exception, even for a one-line answer and even when not asked to edit. The rules: (1) one topic per sentence with a complete predicate; (2) drop logical connectives where possible but never the grammatical prepositions 以, 把, 對, 被, 將; (3) never translate English structural words like vs, and/or, via word-for-word; (4) no em-dash 破折號 ('——'), use a period, comma, or colon; (5) default to connected prose, reserve lists for inherently list-like content (parallel items, steps, specs, comparisons), never fragment continuous reasoning; (6) keep meaningful information (clauses, reasons, qualifiers) in the main sentence, not in parentheses; reserve parentheses for term translations only."
+description: "Apply this skill to ALL Chinese output, no matter how short: every reply, sentence, explanation, argument, report, draft, summary, or note in Chinese. Follow these rules without exception, even for a one-line answer and even when not asked to edit. The rules: (1) one topic per sentence with a complete predicate; (2) drop logical connectives where possible but never the grammatical prepositions 以, 把, 對, 被, 將; (3) never translate English structural words like vs, and/or, via word-for-word; (4) no em-dash 破折號 ('——'), use a period, comma, or colon; (5) keep meaningful information (clauses, reasons, qualifiers) in the main sentence, not in parentheses; reserve parentheses for term translations only."
 ---
  
 # 中文行文風格
@@ -91,25 +91,7 @@ description: "Apply this skill to ALL Chinese output, no matter how short: every
  
 ---
  
-## 原則五：散文優先，必要時才用清單
- 
-預設用連貫的散文解釋概念與論證。只有當內容本質上就是清單時，才改用條列。
- 
-本質上是清單的內容有四類：並列而沒有先後關係的項目、有明確順序的步驟、規格或參數、需要逐項對照的比較。判準是把這些內容攤成條列，是否比寫成一段更好讀。是，就用條列。
- 
-反過來，連續的推理和論證不要打散成零碎的點。論證靠的是句子之間的承接，拆成一條一條反而切斷邏輯，讀者得自己把點重新接回去。為了版面整齊而條列，是把易讀性讓給了美觀，方向錯了。
- 
-**反例：**
-- 這個動作頭跳過自迴歸解碼
-- 所以延遲低
-- 適合即時控制
-**正例：** 這個動作頭跳過自迴歸解碼，延遲因此很低，適合即時控制。
- 
-反例把一條因果鏈硬拆成三點，每點都短到不成句，邏輯關係（跳過解碼導致延遲低，延遲低才適合即時控制）反而被切斷。正例用一個句子把因果接起來，一眼就讀得到。
- 
----
- 
-## 原則六：不要習慣性用括號補充
+## 原則五：不要習慣性用括號補充
  
 不要把有意義的資訊順手丟進括號。如果括號裡是一段子句、一個理由、一個限定條件，把它寫回句子主幹，讓它成為句子的一部分或獨立成一句。括號會讓讀者在主句和括號之間跳進跳出，該講的事就該正面講。
  
@@ -134,5 +116,4 @@ description: "Apply this skill to ALL Chinese output, no matter how short: every
 6. 有沒有「vs」「via」「such as」式的硬翻？比較有沒有用動詞講出來？
 7. 「因此」「此外」「換句話說」這些連接詞，有沒有能省卻沒省的？
 8. 有沒有用到破折號「——」？若有，換成句號、逗號或冒號。
-9. 用了條列嗎？這段內容本質上是清單，還是被硬拆的論證？論證該寫回散文。
-10. 括號裡裝的是有意義的子句、理由或限定條件嗎？若是，寫回句子主幹。
+9. 括號裡裝的是有意義的子句、理由或限定條件嗎？若是，寫回句子主幹。
