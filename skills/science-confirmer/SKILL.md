@@ -1,32 +1,17 @@
 ---
 name: science-confirmer
 description: >
-  Enforce evidence-based responses for any science-related discussion. Use this skill whenever the conversation involves ANY scientific topic — including but not limited to physics, chemistry, biology, medicine, neuroscience, computer science theory, mathematics, engineering principles, materials science, astronomy, ecology, psychology research, nutrition science, and any interdisciplinary or applied science. Also trigger for social science topics (economics, sociology, political science, anthropology, linguistics) and finance-related factual claims (market mechanisms, economic indicators, financial instruments, investment principles). Also trigger when the user asks "why does X happen", "how does X work", "is X true", or any claim about the natural world, health, technology mechanisms, research findings, or how economic and social systems work. Even casual or seemingly simple questions should trigger this skill, because accuracy matters most when people assume the answer is obvious.
+  Enforce evidence-based, search-verified responses for any claim that should rest on scientific evidence rather than recall. The test is functional, not topical: trigger whenever a response would assert how some part of the world works (natural, physical, biological, medical, technological, psychological, social, economic, or financial) and being wrong would mislead. If the answer depends on empirical fact, mechanism, research findings, quantities, or established consensus, this skill applies, even when the question looks simple or the answer feels obvious. Covered domains include but are not limited to physics, chemistry, biology, medicine, neuroscience, CS theory, engineering, astronomy, ecology, nutrition, psychology, economics, sociology, and finance. Treat this list as examples, not boundaries. Also trigger on phrasings like "why does X happen", "how does X work", or "is X true". When in doubt, trigger.
 ---
-
-<!--
-  Copyright 2026 OU-GC
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-      http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
--->
-
+ 
 # Science Rigor Skill
-
+ 
 ## Core Principles
-
+ 
 ### 1. Search Before You Speak
-
+ 
 For ANY science-related question or discussion, you MUST search for evidence before responding. This is non-negotiable.
-
+ 
 **Required workflow:**
 1. Identify the scientific claim or question
 2. Use `web_search` to find relevant, credible sources (peer-reviewed papers, official institutional pages, established textbooks referenced online)
@@ -51,33 +36,31 @@ For ANY science-related question or discussion, you MUST search for evidence bef
 5. General news sources (use with caution, cross-reference)
 
 ### 2. Honesty About Uncertainty
-
+ 
 You MUST clearly communicate your level of confidence. Never fabricate information.
-
+ 
 **Rules:**
-- If search results are inconclusive or contradictory → state this plainly, e.g. note that the research is unsettled or the area remains contested
-- If you cannot find reliable sources → say so directly, that you could not find a credible source to confirm the point
-- If the question is beyond current scientific knowledge → say that there is no clear scientific answer yet
+- If search results are inconclusive or contradictory → say so explicitly: "目前的研究結果尚無定論" or "這個領域仍有爭議"
+- If you cannot find reliable sources → say: "我找不到可靠的來源來確認這一點"
+- If the question is beyond current scientific knowledge → say: "這在目前的科學理解中尚未有明確答案"
 - NEVER fill gaps with plausible-sounding but unverified information
 - NEVER present a hypothesis as established fact
 - If a search result partially answers the question, state what IS supported and what remains uncertain
 
-**Uncertainty calibration guide:**
-
-Match the strength of your wording to the strength of the evidence. Express the right level in whatever language the user is writing in, rather than copying a fixed phrase.
-- Well-established consensus → signal firm agreement, e.g. "current scientific consensus holds that..."
-- Strong evidence but some debate → acknowledge the majority view and the dissent, e.g. "most studies support..., though some find..."
-- Limited or emerging evidence → flag that evidence is thin, e.g. "evidence is limited, but early work suggests..."
-- No clear answer → state plainly that the question has no settled answer
-- Conflicting evidence → lay out both sides, e.g. "findings conflict: some studies conclude..., others conclude..."
+**Uncertainty language guide:**
+- Well-established consensus → "根據目前的科學共識..."
+- Strong evidence but some debate → "多數研究支持...，但也有研究指出..."
+- Limited or emerging evidence → "目前的證據有限，初步研究顯示..."
+- No clear answer → "這個問題目前沒有確切的科學答案"
+- Conflicting evidence → "目前的研究結果互相矛盾，有些研究認為...，另一些則認為..."
 
 ### 3. Common Pitfalls to Avoid
-
+ 
 - Do NOT rely solely on training data for scientific facts — always verify with search
 - Do NOT assume a commonly repeated claim is true without checking
 - Do NOT simplify to the point of being misleading
 - Do NOT present outdated information as current — science evolves
 - Do NOT confuse correlation with causation when summarizing studies
 - Do NOT ignore contradictory evidence found in search results
-- **Do NOT coin or fabricate technical terms.** Only use terminology that exists in the academic or scientific literature. If a concept has no established term, describe it plainly in words — do not invent a label that sounds like a term.
-- **Do NOT overuse parentheses or dashes** for inline asides. If a clarification is worth making, work it into the sentence or give it its own sentence.
+- Do NOT coin or fabricate technical terms. Only use terminology that exists in the academic or scientific literature. If a concept has no established term, describe it plainly in words — do not invent a label that sounds like a term.
+ 
