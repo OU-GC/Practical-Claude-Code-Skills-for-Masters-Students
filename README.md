@@ -1,9 +1,6 @@
-# Practical Claude Code Skills for Master's Students
+# Practical Claude Code Skills for Chinese-speaking Master's Students
 
-A small collection of [Claude Code](https://claude.com/claude-code)
-skills for Chinese-speaking master's students, built for academic and research
-work. Each skill encodes a working pattern — not a rigid checklist — so Claude
-reasons from the underlying principle when a new situation comes up.
+A small collection of Claude Code skills for Chinese-speaking master's students, built for academic and research work. Each skill encodes a working pattern — not a rigid checklist — so Claude reasons from the underlying principle when a new situation comes up.
 
 ## Skills
 
