@@ -4,23 +4,6 @@ A small collection of Claude Code skills for Chinese-speaking master's students,
 
 ## Skills
 
-### [`chinese-polisher`](skills/chinese-polisher/SKILL.md)
-
-A Chinese-writing style guide that applies to *all* Chinese output, removing the
-translated-from-English stiffness and tightening the syntax.
-
-- **One idea per sentence** — a single subject and a complete predicate; no long
-  comma-chained run-ons.
-- **Cut connectives, keep grammar words** — drop logical glue like 因此 / 此外
-  where the parallel structure already carries it, but never drop the
-  load-bearing prepositions 以 / 把 / 對 / 被 / 將.
-- **No word-for-word structure words** — don't render `vs` / `and/or` / `via` /
-  `such as` literally; state comparisons with a verb instead.
-- **No em-dash** — replace `——` with a period, comma, or colon by
-  what it's actually doing.
-- **Parentheses only for term glosses** — keep clauses, reasons, and qualifiers
-  in the main sentence; parentheses are for English-term translations only.
-
 ### [`paper-reader`](skills/paper-reader/SKILL.md)
 
 Plain, direct explanations of research papers for Chinese-speaking readers,
@@ -43,14 +26,18 @@ keeping analytical depth while dropping academic stiffness.
   modality and representation that go in and come out, trace the end-to-end
   path, distinguish a component from what feeds it, and quote the paper's actual
   numbers.
+- **Established terms only** — uses terminology the field already recognizes;
+  never coins term-like phrases, and says so plainly when no standard term exists.
 - **Fixed answer structure** — one-line verdict, the key idea, the authors' own
   claimed contributions (kept separate), the motivation (the gap in prior work),
   and honest limits.
-- **Established terms only** — uses terminology the field already recognizes;
-  never coins term-like phrases, and says so plainly when no standard term exists.
-- **Chinese gloss** — English term first, pure Chinese translation in
-  parentheses, e.g. `attention mechanism（注意力機制）`; commonly accepted terms
-  like query / key / value / token keep their English names.
+- **Chinese writing style** — a built-in 中文行文風格 section enforces clean
+  syntax: one idea per sentence, cut connectives but keep the load-bearing
+  prepositions 以 / 把 / 對 / 被 / 將, no word-for-word structure words, no
+  em-dash, parentheses only for term glosses. Plus the gloss format itself:
+  English term first, pure Chinese translation in parentheses, e.g.
+  `attention mechanism（注意力機制）`; commonly accepted terms like query / key /
+  value / token keep their English names.
 
 ### [`report-writer`](skills/report-writer/SKILL.md)
 
@@ -124,7 +111,6 @@ Practical-Claude-Code-Skills-for-Masters-Students/
 ├── NOTICE
 ├── README.md
 └── skills/
-    ├── chinese-polisher/SKILL.md
     ├── paper-reader/SKILL.md
     ├── report-writer/SKILL.md
     └── science-confirmer/SKILL.md
